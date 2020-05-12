@@ -1,0 +1,32 @@
+.card__title {
+    max-width: 460px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 0;
+    margin-bottom: 48px;
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024){
+    .card__title{
+      max-width: 440px;
+    }
+  }
+  
+  @media screen and (min-width: 426px) and (max-width: 768px){
+    .card__title{
+      max-width: 340px;
+      font-size: 42px;
+      line-height: 46px;
+    }
+  }
+
+@media screen and (max-width: 425px){
+  .card__title{
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+  }
+}

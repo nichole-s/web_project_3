@@ -1,0 +1,22 @@
+.cover__title{
+    max-width: 656px;
+    min-height: 76px;
+    font-weight: 900;
+    font-size: 72px;
+    color: #fffdfd; /* It's possible that this color was a typo, however it appeared on every size other than screen size 320px - so I coded it as it appears */
+    line-height: 76px;
+    text-align: center;
+    margin: 0 0 32px 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 425px){
+    .cover__title{
+        max-width: 288px;
+        min-height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+        color: #ffffff;
+    }
+}
+

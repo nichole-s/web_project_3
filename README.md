@@ -3,18 +3,18 @@
 ### Overview
 * Intro
 * Figma
-* Images
+* Link to github pages
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is project 3 at Practicum. We are learning how to make adaptive sites as well as putting together everything we have learned in the past to create this site. 
 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
 
-**Images**
+**Link to github pages**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+https://nichole-s.github.io/nichole-s.github.io/
 
-Good luck and have fun!
+

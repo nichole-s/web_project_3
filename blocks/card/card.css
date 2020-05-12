@@ -1,0 +1,52 @@
+@import url('./__column/card__column.css');
+@import url('./__title/card__title.css');
+@import url('./__image/card__image.css');
+@import url('./__website/card__website.css');
+@import url('./__website/card__website_margin_big.css');
+@import url('./__link-text/card__link-text.css');
+@import url('./__link/card__link.css');
+@import url('./__text/card__text.css');
+
+.card{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 984px;
+}
+
+.card:first-child{
+  margin-top: 0;
+}
+
+@media screen and (min-width: 769px) and(max-width: 1024px){
+  .card{
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .card{
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin-bottom: 48px;
+  }
+
+  .card:first-child{
+    margin-top: 0;
+  }
+
+  .card:last-child{
+    margin-bottom: 0;
+  }
+
+  
+}
