@@ -22,6 +22,6 @@
   .card__image{
     max-width: 320px;
     min-height: 320px;
-    margin-bottom: 32px;
+    margin-bottom: 0;
   }
 }

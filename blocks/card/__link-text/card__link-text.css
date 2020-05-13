@@ -16,7 +16,7 @@
 @media screen and (max-width: 425px){
   .card__link-text{
     visibility: hidden;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 

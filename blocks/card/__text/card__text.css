@@ -13,11 +13,19 @@
   .card__text{
     max-width: 456px;
   }
+
+  .card__text:last-child{
+    margin-bottom: 0px;
+  }
 }
   
 @media screen and (min-width: 426px) and (max-width: 768px){
   .card__text{
     max-width: 352px;
+  }
+
+  .card__text:last-child{
+    margin-bottom: 0px;
   }
 }
 

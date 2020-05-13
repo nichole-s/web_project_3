@@ -2,15 +2,27 @@
     margin-right: 40px;
 }
 
+.card__column:last-child{
+    margin-right: 0;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .card__column{
         margin-right: 32px;
+    }
+
+    .card__column:last-child{
+        margin-right: 0;
     }
 }
     
 @media screen and (min-width: 426px) and (max-width: 768px){
     .card__column{
         margin-right: 28px;
+    }
+
+    .card__column:last-child{
+        margin-right: 0;
     }
 }
 
