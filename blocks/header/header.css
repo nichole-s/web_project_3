@@ -5,7 +5,6 @@
 
 .header{
   display: flex;
-  flex-flow: row no-wrap;
   justify-content: space-between;
   /*max-width: 984px;
   min-height: 44px;*/

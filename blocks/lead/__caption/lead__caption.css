@@ -4,7 +4,7 @@
     white-space: nowrap;
     font-size: 10px;
     line-height: 14px;
-    letter-spacing: 0.15em;
+    letter-spacing: .15em;
     text-transform: uppercase;
     width: calc(100% - 1097px);
     margin: 0;
