@@ -6,29 +6,33 @@
 .lead{
     display: flex;
     flex-direction: column;
-    max-width: 984px;
-    margin: 0 auto 92px;
-}
+    /*max-width: 984px;*/
+    width: calc(100% - 296px);
+    margin: 0 148px 92px;
+} 
 
 @media screen and (min-width: 769px) and (max-width:  1024px){
     .lead{
-        max-width: 928px;
-        margin-bottom: 92px;
+        /*max-width: 928px;*/
+        width: calc(100% - 96px);
+        margin: 0 48px 92px;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
     .lead{
-        max-width: 768px;
-        margin-bottom: 88px;
+        /*max-width: 768px;*/
+        width: 100%;
+        margin: 0 0 88px;
     }
 }
 
 @media screen and (max-width: 425px){
     .lead{
-        max-width: 320px;
+        /*max-width: 320px;
         height: 406px;
-        padding-bottom: 65px;
-        margin-bottom: 64px;   
+        padding-bottom: 65px;*/
+        width: 100%;
+        margin: 0 0 64px; 
     }
 }

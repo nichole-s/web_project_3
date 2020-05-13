@@ -15,6 +15,6 @@ This is project 3 at Practicum. We are learning how to make adaptive sites as we
 
 **Link to github pages**
 
-https://nichole-s.github.io/nichole-s.github.io/
+https://nichole-s.github.io/web_project_3/
 
 

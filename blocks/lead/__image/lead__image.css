@@ -1,9 +1,12 @@
 .lead__image{
-  max-width: 984px;
-  height: 615px;
-}
+  /*max-width: 984px;
+  height: 615px;*/
+  width: 100%;
+  margin-bottom: 8px;
+  align-self: center;
+} 
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+/*@media screen and (min-width: 769px) and (max-width: 1024px){
   .lead__image{
     align-self: center;
     max-width: 928px;
@@ -23,4 +26,4 @@
     max-width: 320px;
     height: 200px;
   }
-}
+}*/
